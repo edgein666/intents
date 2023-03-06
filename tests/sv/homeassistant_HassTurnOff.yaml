@@ -47,3 +47,10 @@ tests:
           - curtain
           - shutter
         domain: cover
+  - sentences:
+      - Stäng av fläkten i köket
+    intent:
+      name: HassTurnOff
+      slots:
+        area: Kök
+        name: Fläkten

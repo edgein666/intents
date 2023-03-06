@@ -8,6 +8,13 @@ tests:
       slots:
         name: Takfläkten
   - sentences:
+      - Sätt på fläkten i köket
+    intent:
+      name: HassTurnOn
+      slots:
+        area: Kök
+        name: Fläkten
+  - sentences:
       - Öppna sovrumsgardinen
       - Dra upp sovrumsgardinen
       - Dra isär sovrumsgardinen

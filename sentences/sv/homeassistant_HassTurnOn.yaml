@@ -3,7 +3,7 @@ intents:
   HassTurnOn:
     data:
       - sentences:
-          - <slå_på> <name>
+          - <slå_på> <name> [<i_på> <area>]
       - sentences:
           - <öppna_gardiner> <name>
         response: cover
